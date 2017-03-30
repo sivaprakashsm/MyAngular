@@ -41,9 +41,4 @@ dependencies:
     - "custom_1"   # relative to the build directory
     - "~/custom_2" # relative to the user's home directory
 
-## Customize deployment commands
-deployment:
-  staging:
-    branch: master
-    heroku:
-      appname: myangular
+
