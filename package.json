@@ -2,7 +2,7 @@
   "name": "myangular",
   "version": "1.0.0",
   "scripts": {
-    "start": "concurrent \"npm run tsc:w\" ",
+    "start": "concurrently \"npm run tsc:w\" ",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "lite": "lite-server",
