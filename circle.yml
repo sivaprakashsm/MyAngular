@@ -28,7 +28,7 @@ checkout:
 dependencies:
   pre:
     - npm install typings -g
-	- npm install -g lite-server
+	- npm install lite-server -g
     - npm install # install from a different package manager
   #override:
    # - bundle install: # note ':' here
