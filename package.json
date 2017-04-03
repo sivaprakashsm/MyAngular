@@ -6,19 +6,24 @@
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings",
-    "postinstall": "typings install"
+    "postinstall": "typings install",
+    "test": "mocha"
   },
   "license": "ISC",
   "dependencies": {
     "angular2": "2.0.0-beta.7",
-   
     "es6-shim": "^0.33.3",
     "express": "^4.14.1",
     "mongoose": "^4.5.8",
     "reflect-metadata": "0.1.2",
-   
     "systemjs": "0.19.22",
-    "zone.js": "0.5.15"
+    "zone.js": "0.5.15",
+    "ejs": "*",
+        "mocha": "^2.4.5",
+        "should": "*",
+        "supertest": "^1.2.0",
+        "expect": "*",
+        "chai": "^3.5.0"
   },
   "devDependencies": {
     "concurrently": "^2.0.0",
