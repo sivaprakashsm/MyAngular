@@ -16,11 +16,11 @@
     "systemjs": "0.19.22",
     "zone.js": "0.5.15",
     "ejs": "*",
-        "mocha": "^2.4.5",
-        "should": "*",
-        "supertest": "^1.2.0",
-        "expect": "*",
-        "chai": "^3.5.0"
+    "mocha": "^2.4.5",
+    "should": "*",
+    "supertest": "^1.2.0",
+    "expect": "*",
+    "chai": "^3.5.0"
   },
   "devDependencies": {
     "concurrently": "^2.0.0",
