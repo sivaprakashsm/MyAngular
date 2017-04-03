@@ -16,10 +16,5 @@ dependencies:
     - npm i -g mocha
     - npm install # install from a different package manager
 
-deployment:
-  staging:
-    branch: master
-    heroku:
-      appname: myangular 
 
 
