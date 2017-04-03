@@ -28,6 +28,7 @@ checkout:
 dependencies:
   pre:
     - npm install typings -g
+    - npm i -g mocha
     - npm install # install from a different package manager
   #override:
    # - bundle install: # note ':' here
